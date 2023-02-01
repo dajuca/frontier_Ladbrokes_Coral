@@ -23,6 +23,7 @@ print(df_500_gc)
 m =folium.Map(location=[55.8642, -4.2518],zoom_start=12)
 
 data = {
+    "No radius": 0,
     "100 meters": 100,
     "200 meters": 200,
     "300 meters": 300,
